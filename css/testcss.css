@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+/* Always use margin:  0;  padding:  0; as margin controls for your page itself.  Setting both to 0 ensures that your page will spread to the outer edges of the browser window. */
+	margin:  0;
+	padding:  0;
+}
+
+#bodywrapper {
+/* replace margin-top value with the height of your header. */
+	margin-top:  110px;
+	margin-left:  0;
+	margin-right:  0;
+	margin-bottom:  0;
+	padding:  0;
+	width:  100%;
+/*  Background of the left side menu.  Replace the URL and the background color (#FFFFFF) with your choices for each.)  */
+	background:  #C6FAFF;
+	color:  #000000;
+}
+
+#contentarea {
+ /* replace this value with the width of your left column */
+	margin:  0;
+	padding:  0;
+	float:  left;
+	height:  1%;  /* IE hack due to a bug handling float:  right. */
+}
+#contentarea[id] {
+/* Put in place for Firefox, and any browser that will render this section correctly.  IE has a bug involving float:  none. */
+	float:  none;
+	margin-left:  200px;
+}
+
+#leftcolumn {
+	float:  left;
+	width:  200px;
+}
+
+#leftcolumncontent {
+	position:  absolute;
+/* replace top value with the height of your header. */
+	top:  110px;
+	left:  0;
+/*  Background of the left side menu.  Replace the URL and the background color (#3F9BCF) with your choices for each.)  */
+	background:#FFF;
+	color:  #FFFFFF;
+	margin:  0;
+	padding:  0;
+/* Replace width with the width of your left column. */
+	width:  200px;
+}
+
+#header {
+	position:  absolute;
+	top:  0;
+	left:  0;
+/* The header can be set to either a fixed width or a liquid width.  I prefer to make the header a liquid width for aesthetic purposes, but changing it to a fixed width will not affect the layout.  This is an optional property. */
+	width:  100%;
+/* replace this value with the height of your header. */
+	height:  110px;
+/* background for the header.  Replace the URL and the background color (#F2F2F2) with your choices for each.  */
+	background:  url('ongcbanner.jpg') top left repeat #F2F2F2;
+	color:  #000000;
+/* put this in to ensure that your header doesn't overlap the body of your website. */
+	overflow:  hidden;
+}
+
+#footer {
+/* This is needed to ensure that the footer appears below your content and menus. */
+	clear:  both;
+	margin:  0;
+	padding:  0;
+/* The footer can be set to either a fixed width or a liquid width.  This is an optional property. */
+	width:  100%;
+/* Replace with the height of your footer.  Optional.  */
+	height:  20px;
+/* Replace with the background image and colour of your footer.  */
+	background:  #3F9BCF;
+	color:  #FFFFFF;
+}
+

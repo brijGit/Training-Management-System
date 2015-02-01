@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	text-align: center; 
+	color: #000;
+
+}
+#pdf{
+	width: 1150px; 
+}
+#table
+{
+width: 950;
+}
+#container { 
+	width: 1150px; 
+background: #D3DADB;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+} 
+#header { 
+	background: #999; 
+	padding: 0 10px 0 20px;
+	color:#FFF;
+} 
+#header h1 {
+	margin: 0; 
+	padding: 10px 0;
+}
+#sidebar {
+	float: left; 
+	width:400px; 
+	background: #D3DADB;
+	padding: 15px 10px 15px 20px;
+}
+
+#sidebar1 {
+	float: left; 
+	width: 250px; 
+	background: #D3DADB;
+	padding: 15px 10px 15px 20px;
+}
+#sidebar1 a {
+color: #421C52;
+}
+#mainContent { 
+background: #D3DADB;
+	margin: 0 0 0 250px;
+	padding: 0 20px;
+	margin-right:20px;
+	margin-left:20px;
+} 
+#mainContent1 { 
+background: #CCF;
+	margin: 0 0 0 250px;
+	padding: 0 20px;
+	margin-right:20px;
+	margin-left:20px;
+	width:571px;
+	float:left;
+} 
+#footer { 
+	padding: 0 10px 0 20px;
+	background:#000;
+	color:#FFF;
+	height:40px;
+	
+} 
+#footer1 { 
+	padding: 0 10px 0 20px;
+	background:#000;
+	color:#FFF;
+	clear:both;
+	height:35px;
+} 
+#sidebar1 h4  a{
+background-color: #D3DADB;
+}
+#mainContent h4,#sidebar h4,#mainContent1 h4
+{
+	font-style:oblique;
+}
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+#footer a {
+	color:#FFF;
+	}
+#footer1 a {
+	color:#FFF;
+	}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.style2 {color: #00FF33}
+.style1{color:#FF0000}
+</style>
+<style type="text/css"> 
+
+#sidebar1 { width: 230px; }
+</style>
+<![endif]
+<style type="text/css"> 
+#sidebar1 { padding-top: 30px; }
+#mainContent { zoom: 1; }
+</style>
+<![endif]
